@@ -1470,6 +1470,7 @@ img#wpstats {
 		margin: 15px 0 0 0;
         margin: 1.07142857142857rem 0 0 0;
 		text-indent: 0;
+        background: url(images/menu_separator.png) no-repeat top left transparent;
 	}
 	.main-navigation li a,
 	.main-navigation li {
@@ -1485,15 +1486,23 @@ img#wpstats {
 		line-height: 3.66666666666667;
 		text-transform: none;
 		white-space: nowrap;
+        padding: 0 20px;
+        padding: 0 1.42857142857143rem;
+        margin-right: 3px;
+        margin-right: 0.21428571428571rem;
+
 	}
 	.main-navigation li a:hover {
-		color: #000;
+		color: #3a322c;
+        background: url(images/bg_menu_li_a.png) repeat-x 0 0 transparent;
 	}
 	.main-navigation li {
-		margin: 0 40px 0 0;
-		margin: 0 2.857142857rem 0 0;
+        float: left;
+        margin: 0;
 		position: relative;
+        background: url(images/menu_separator.png) no-repeat top right transparent;
 	}
+
 	.main-navigation li ul {
 		display: none;
 		margin: 0;
@@ -1531,8 +1540,8 @@ img#wpstats {
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		/*color: #636363;*/
-		/*font-weight: bold;*/
+        color: #3a322c;
+        background: url(images/bg_menu_li_a.png) repeat-x 0 0 transparent;
 	}
 	.menu-toggle {
 		display: none;
