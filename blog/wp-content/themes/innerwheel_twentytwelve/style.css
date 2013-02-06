@@ -548,6 +548,13 @@ a:hover {
 .site-header h2 {
 	text-align: center;
 }
+.site-header h1 a{
+    background: url(images/mesaj_header.png) no-repeat 0 0 transparent;
+    width: 564px;
+    height: 291px;
+    text-indent: -9999px;
+    font-size: 1px;
+}
 .site-header h1 a,
 .site-header h2 a {
 	color: #515151;
@@ -948,15 +955,16 @@ img.aligncenter {
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 4px double #ededed;
-	margin-bottom: 72px;
-	margin-bottom: 5.142857143rem;
+	/*border-bottom: 4px double #ededed;*/
+	/*margin-bottom: 72px;*/
+	/*margin-bottom: 5.142857143rem;*/
 	padding-bottom: 24px;
 	padding-bottom: 1.714285714rem;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
+    background: url("images/bg_site-content_main.png") repeat-y scroll 0 0 transparent;
 }
 .page-links {
 	clear: both;
@@ -1440,7 +1448,14 @@ img#wpstats {
 	.site-content {
 		float: left;
 		width: 65.104166667%;
+        background: url(images/bg_site-content_top.png) no-repeat 0 0 transparent;
 	}
+    #content{
+        background: url(images/bg_site-content_bottom.png) no-repeat bottom center transparent;
+        margin-top: 7px;
+        margin-top: 0.5rem;
+        padding-bottom: 7px;
+    }
 	body.template-front-page .site-content,
 	body.single-attachment .site-content,
 	body.full-width .site-content {
@@ -1452,7 +1467,7 @@ img#wpstats {
 	}
 	.site-header h1,
 	.site-header h2 {
-		text-align: left;
+		text-align: center;
 	}
 	.site-header h1 {
 		font-size: 26px;
